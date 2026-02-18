@@ -34,10 +34,12 @@
 #print (f"Your last name is, {last}")
 
 
+def main():
+    name = input("Whats your name? ")
+    hello(name)
+
 # define a function name hello brackets after define parameters, the : says all identined lines after are part of that function
 def hello(user="world"):
     print("Hello", user)
 
-name = input("Whats your name? ")
-
-hello(name)
+main()
