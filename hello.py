@@ -5,7 +5,7 @@
 #name = name.strip()
 
 # capitalize first letter
-#name = name.capitalize()
+#name = name.capitalize
 
 # will captalize the first letter of each word
 #name = name.title()
