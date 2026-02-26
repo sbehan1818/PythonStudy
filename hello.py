@@ -40,6 +40,13 @@ def main():
 
 # define a function name hello brackets after define parameters, the : says all identined lines after are part of that function
 def hello(user="world"):
-    print("Hello", user)
+    if user.strip().lower() == "kirstin":
+        print("Hello Fiancey")
+    elif user.strip().lower() == "bentley":
+        print("Hello member of the dynamic ginger duo")
+    elif user.strip().lower() == "stephanie":
+        print("suppose something else is wrong now")
+    else:
+        print("Hello", user)
 
 main()
